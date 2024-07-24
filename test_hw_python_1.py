@@ -52,7 +52,7 @@ def test_random_list():
     l = []
 
     for i in range(0, 10):
-        random_num = random.randint(0, 101)
+        random_num = random.randint(0, 100)
         l.append(random_num)
 
     l.sort()
